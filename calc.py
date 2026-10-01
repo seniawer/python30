@@ -1,3 +1,6 @@
 bill = float(input("Сумма чека: "))
 percent = float(input("Процент чаевых: "))
-print(bill * percent  / 100)
+tip = bill * percent / 100
+total = bill + tip
+print(f"Чаевые: {tip} руб")
+print(f"Итого: {total} руб")
